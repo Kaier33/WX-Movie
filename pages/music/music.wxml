@@ -1,0 +1,9 @@
+<import src="music-list/music-list-template.wxml" />
+<view>
+    <view>
+        <image class='tip' src="{{hotInfo.topinfo.pic_h5}}"></image>
+    </view>
+    <view>
+        <template is="musicTemplate" data="{{...hotInfo}}" />
+    </view>
+</view>

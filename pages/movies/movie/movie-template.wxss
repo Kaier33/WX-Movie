@@ -1,4 +1,5 @@
 @import "../stars/stars-template.wxss";
+
 .movie-container {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,10 @@
 <view class="container">
-  <image class="user-avatar" src="/images/avatar/1.png"></image>
-  <text class="user-name">Long may the <text style="color:red">sun shine</text></text>
-  <view class="moto-container">
-    <text class="moto" bindtap="onTap">开始新的生活!</text>
-  </view>
+    <open-data type="userAvatarUrl" class="avatar"></open-data>
+    <label>
+        hello
+        <open-data type="userNickName"></open-data>
+    </label>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey">开启体验之旅</text>
+    </view>
 </view>

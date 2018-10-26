@@ -1,0 +1,18 @@
+.music-text{
+    color: red;
+    text-align: center;
+}
+.rich-text{
+    font-size: 24rpx;
+    color: 333;
+}
+.container{
+    padding: 0 100rpx;
+}
+
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

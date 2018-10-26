@@ -1,0 +1,18 @@
+<template name="musicTemplate">
+    <view class="rich-text">
+        <rich-text nodes="{{topinfo.info}}"></rich-text>
+    </view>
+    <view class="container">
+        <view wx:for="{{songlist}}" wx:key="index" class="items">
+            <view>
+                <text>{{index+1}}</text>
+            </view>
+            <view>
+                <text>{{item.data.albumname}}</text>
+            </view>
+            <view>
+                <text>{{item.data.singer[0].name}}</text>
+            </view>
+        </view>
+    </view>
+</template>
